@@ -1,0 +1,29 @@
+{
+    "name": "sunkan/percurri",
+    "description": "Simple client for taking to beanstlakd server",
+    "homepage": "https://github.com/sunkan/percurri",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Sundqvist",
+            "email": "andreas@forme.se"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "psr/log": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Percurri\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Percurri\\Tests\\": "tests/"
+        }
+    }
+}
